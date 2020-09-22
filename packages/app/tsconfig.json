@@ -15,6 +15,10 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "vite-react-ts-components": ["../components/src/index.ts"]
+    }
   },
   "include": ["src"]
 }

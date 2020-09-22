@@ -9,7 +9,7 @@ const config: UserConfig = {
     link: ['vite-react-ts-components'],
   },
   alias: {
-    'vite-react-ts-components': '/@linked/vite-react-ts-components/index.tsx',
+    'vite-react-ts-components': '/@linked/vite-react-ts-components/index.ts',
     '/@linked/vite-react-ts-components/': path.resolve(require.resolve('vite-react-ts-components/package.json'), '../src')
   }
 }
